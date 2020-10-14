@@ -1,0 +1,1 @@
+web: gunicorn the-hunter-deck.wsgi
