@@ -1,1 +1,1 @@
-web: gunicorn the-hunter-deck.wsgi
+web: gunicorn hunter_collector2.wsgi
