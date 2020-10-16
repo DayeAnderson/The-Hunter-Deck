@@ -4,22 +4,22 @@ from django.contrib.auth.models import User
 
 # Create your models here.
 
-# WEAPON_CHOICES= (
-#     ('great_sword', 'Great Sword'),
-#     ('sword_&_shield', 'Sword & Shield'),
-#     ('dual_blades', 'Dual Blades'),
-#     ('long_sword', 'Long Sword'),
-#     ('hammer', 'Hammer'),
-#     ('hunting_horn', 'Hunting Horn'),
-#     ('lance', 'Lance'),
-#     ('gunlance', 'Gunlance'),
-#     ('switch_axe', 'Switch Axe'),
-#     ('charge_blade', 'Charge Blade'),
-#     ('insect_glaive', 'Insect Glaive'),
-#     ('bow', 'Bow'),
-#     ('light_bowgun', 'Light Bowgun'),
-#     ('heavy_bowgun', 'Heavy Bowgun')
-# )
+WEAPON_CHOICES= (
+    ('great_sword', 'Great Sword'),
+    ('sword_&_shield', 'Sword & Shield'),
+    ('dual_blades', 'Dual Blades'),
+    ('long_sword', 'Long Sword'),
+    ('hammer', 'Hammer'),
+    ('hunting_horn', 'Hunting Horn'),
+    ('lance', 'Lance'),
+    ('gunlance', 'Gunlance'),
+    ('switch_axe', 'Switch Axe'),
+    ('charge_blade', 'Charge Blade'),
+    ('insect_glaive', 'Insect Glaive'),
+    ('bow', 'Bow'),
+    ('light_bowgun', 'Light Bowgun'),
+    ('heavy_bowgun', 'Heavy Bowgun')
+)
 
 class Weapon(models.Model):
     name = models.CharField(max_length=100)

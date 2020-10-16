@@ -2,13 +2,33 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5a5d994e-8ab3-4c8d-83ae-b8ab6d14a353/dbz282n-cdcbfb11-ea23-45bb-8fff-d9b61f852bde.png/v1/fill/w_1024,h_576,q_80,strp/monster_hunter_world_background__fleet__by_revonlieke_dbz282n-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01NzYiLCJwYXRoIjoiXC9mXC81YTVkOTk0ZS04YWIzLTRjOGQtODNhZS1iOGFiNmQxNGEzNTNcL2RiejI4Mm4tY2RjYmZiMTEtZWEyMy00NWJiLThmZmYtZDliNjFmODUyYmRlLnBuZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.Oh8KULMIVRysJtTBTsmRWMx3RF3Pb3gf59lWYvXjIWk);
   }
   
-  main {
-    flex: 1 0 auto;
-  }
+main {
+  flex: 1 0 auto;
+}
   
-  footer.page-footer {
-    padding-top: 0;
-    text-align: right;
-  }
+footer.page-footer {
+  padding-top: 0;
+  text-align: right;
+  background-color: rgb(175, 203, 255);
+
+}
+
+.card {
+  background-color: rgba(255, 255, 255, .8);
+  border-radius: 10px;
+}
+
+nav {
+  background-color: rgb(175, 203, 255);
+}
+
+h1 {
+  color: rgb(175, 203, 255);
+}
+
+h4 {
+  color: rgb(175, 203, 255);
+}
