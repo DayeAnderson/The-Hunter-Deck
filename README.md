@@ -19,3 +19,41 @@
 ## Trello Board:
 ![Trello](https://trello-attachments.s3.amazonaws.com/5f7f917a6dbf5d0ba583b501/5f808bb32016c369cee55ce0/43154ebd76e31bc63a042a9631696117/HunterDeck%402x.png)
 
+## ERD:
+![ERD](images/Screen%20Shot%202020-10-15%20at%2010.26.22%20PM.png)
+
+# Website View
+
+##
+### Home Page:
+![Home](images/home.png)
+
+### About Page:
+![About](images/about.png)
+
+### Hunter List:
+![About](images/hunter.png)
+
+## Technology Used:
+- CSS
+- HTML
+- Python
+- Django
+- AWS
+- Javascript
+- Materialize
+
+## AAU I can:
+- Sign up or log in
+- Create a hunter
+- Delete a hunter
+- Edit a hunter
+- Create, edit, and delete a weapon
+- Display weapons on hunter details
+- Equip and unequip weapons from hunters
+- Add Photo to hunter details
+
+## Stretch Goals
+- Add specificity to weapon and hunter create form
+- Sort Hunter list in order from highest rank to lowest
+- Sort Weapon list in order from highest rarity to lowest
