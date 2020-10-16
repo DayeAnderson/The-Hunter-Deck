@@ -43,6 +43,12 @@
               {{ weapon.type }}
             </span>
           </div>
+          <div class="card-action">
+            <form action="{% url 'unassoc_weapon' hunter.id weapon.id %}" method="post">
+                {% csrf_token %}
+              <button type="submit" class="btn">Unequip</button>
+            </form>
+          </div>
         </div>
       {% endfor %}
     {% else %}
@@ -70,7 +76,7 @@
         </div>
       {% endfor %}
     {% else %}
-      <h5>{{hunter.name}} Is Ready to Slay!!</h5>
+      <h5>{{hunter.name}} has no weapons in their inventory!!</h5>
     {% endif %}
 </div>
 

@@ -34,8 +34,12 @@ def hunters_detail(request, hunter_id):
 
 @login_required
 def assoc_weapon(request, hunter_id, weapon_id):
-  # Note that you can pass a toy's id instead of the whole object
   Hunter.objects.get(id=hunter_id).weapons.add(weapon_id)
+  return redirect('detail', hunter_id=hunter_id)
+
+@login_required
+def unassoc_weapon(request, hunter_id, weapon_id):
+  Hunter.objects.get(id=hunter_id).weapons.remove(weapon_id)
   return redirect('detail', hunter_id=hunter_id)
 
 class HunterCreate(LoginRequiredMixin, CreateView):
@@ -45,7 +49,7 @@ class HunterCreate(LoginRequiredMixin, CreateView):
 
   def form_valid(self, form):
     # Assign the logged in user (self.request.user)
-    form.instance.user = self.request.user  # form.instance is the cat
+    form.instance.user = self.request.user 
     # Let the CreateView do its job as usual
     return super().form_valid(form)
 
@@ -61,7 +65,6 @@ def add_photo(request, hunter_id):
             s3.upload_fileobj(photo_file, BUCKET, key)
             # build the full url string
             url = f"{S3_BASE_URL}{BUCKET}/{key}"
-            # we can assign to cat_id or cat (if you have a cat object)
             photo = Photo(url=url, hunter_id=hunter_id)
             photo.save()
         except:
