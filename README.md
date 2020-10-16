@@ -16,8 +16,8 @@
 ##
 ## [Go to Trello Board](https://trello.com/b/3s8Ntl45/hunterdeck)
 
-## Trello Board:
-![Trello](https://trello-attachments.s3.amazonaws.com/5f7f917a6dbf5d0ba583b501/5f808bb32016c369cee55ce0/43154ebd76e31bc63a042a9631696117/HunterDeck%402x.png)
+## Wireframes:
+![Wireframes](https://trello-attachments.s3.amazonaws.com/5f7f917a6dbf5d0ba583b501/5f808bb32016c369cee55ce0/43154ebd76e31bc63a042a9631696117/HunterDeck%402x.png)
 
 ## ERD:
 ![ERD](images/Screen%20Shot%202020-10-15%20at%2010.26.22%20PM.png)
